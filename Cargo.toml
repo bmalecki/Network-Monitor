@@ -1,0 +1,17 @@
+[package]
+name = "projekt-zaliczeniowy"
+version = "0.1.0"
+authors = ["Bartlomiej Malecki <bartlomiej.malecki@student.put.poznan.pl>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+num-traits = "0.2"
+num-derive = "0.2"
+num = "0.2"
+chrono = "0.4"
+
+
+[build-dependencies]
+cc = "1.0"
