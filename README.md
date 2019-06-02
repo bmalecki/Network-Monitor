@@ -1,13 +1,13 @@
 # Network monitoring using PF_NETLINK socket
 
 ## Running
-    curl https://sh.rustup.rs -sSf | sh     # instalacja języka Rust
+    curl https://sh.rustup.rs -sSf | sh     # Install Rust language
 
-    cargo run                               # kompilacja wersji deweloperskiej
+    cargo run                               # Dev verison compilation
 
 or 
 
-    cargo build --realese                   # kompilacja wersji produkcujnej
+    cargo build --realese                   # Prod version compilation
     ./target/release/projekt-zaliczeniowy
 
 ## Test commands
